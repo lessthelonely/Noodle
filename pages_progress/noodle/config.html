@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" style="width: auto;height: auto;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Noodle | A melhor escolha da tua vida académica!</title>
+    <meta name="description" content="Noodle é a nova plataforma desenhada por alunos para alunos e que permite a gestão de trabalhos e comunicação entre estudantes e docentes!">
+    <link rel="icon" type="image/png" sizes="717x722" href="assets/img/mascot.png">
+    <link rel="icon" type="image/png" sizes="717x722" href="assets/img/mascot.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/footer-yellow.css">
+    <link rel="stylesheet" href="assets/css/header-yellow.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="min-vh-100, d-flex,flex-column,justify-content-between" style="height: auto;width: auto;display: flex;flex-direction: column;min-height: auto;">
+    <header id="header" class="header-yellow" style="width: auto;">
+        <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search" id="navbar" style="width: auto;">
+            <div class="container-fluid"><a id="feed-link" href="/feed.html"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse align-items-center" id="navcol-1" style="margin-top: 1px;width: auto;"><img id="logo" src="assets/img/logo.png" href="">
+                    <ul class="navbar-nav"></ul>
+                    <form class="d-flex me-auto navbar-form" target="_self" style="text-align: center;border-width: 10px;border-color: #0c1618;transform: translate(324px);margin: 0px;margin-right: 0px;">
+                        <div class="d-flex align-items-center" id="search-bar" style="align-self: center;"><a id="magnifying-glass-link" href="#"><i class="fa fa-search fa fa-search" id="search-icon"></i></a><input class="form-control search-field" type="search" id="search-input" name="search">
+                            <div class="dropdown" style="z-index: 1000;margin-right: 0px;margin-left: 5px;"><a class="dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" href="#"></a>
+                                <div class="dropdown-menu" style="width: 460px;border-radius: 3px; left: -450px; top: 35px;">
+                                    <form>
+                                        <p style="padding: 10px;">Autores da Publicação<input class="form-control" type="text" id="user-filter" style="margin: 0px;margin-left: 0px;" placeholder="A pesquisa só será feita neste utilizador!"></p>
+                                        <p style="padding: 10px;">Termos Incluídos<input class="form-control" type="text" id="term-filter" style="margin: 0px;margin-left: 0px;" placeholder="Valores fornecidos aqui estarão incluídos nos resultados!"></p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="dropdown dropstart" id="user-btn" href="" aria-expanded="false" style="margin-right: 15px;"><a class="dropdown-toggle a" aria-expanded="false" data-bs-toggle="dropdown" id="dropdown-link" href="#user-tab"><img id="user-pic" class="rounded-circle" src="assets/img/avatar.jpg" style="margin-right: 0px;"></a>
+                        <div class="dropdown-menu dropleft-menu-start" id="user-tab">
+                            <h6 class="dropdown-header" id="dh1">Notificações</h6>
+                            <div class="toast-container" id="notifications">
+                                <div class="toast fade hide" role="alert" id="toast-1">
+                                    <div class="toast-header"><img class="me-2"><strong class="me-auto">Notificação</strong><small>10 min ago</small><button class="btn-close ms-2 mb-1 close" data-bs-dismiss="toast"></button></div>
+                                    <div class="toast-body" role="alert">
+                                        <p>Corpo da notificação</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-divider" id="dv1"></div>
+                            <h6 class="dropdown-header" id="dv2">Navegação</h6><a class="dropdown-item" id="user-btn-1" href="#logout">Perfil</a><a class="dropdown-item" id="user-btn-2" href="#logout">Configurações</a><a class="dropdown-item" id="user-btn-3" href="/home.html">Terminar Sessão</a>
+                        </div>
+                    </div><a id="faq-link" href="/faq.html"><i class="fa fa-question bi bi-question nav-link" style="padding: 0px;margin-top: 0px;margin-right: 0px;"></i></a><a id="about-link" class="nav-link" href="/about.html"><i class="fa fa-info bi bi-question"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container" style="width: auto;display: flex;padding: 0px;height: auto;">
+        <div style="background: #f7f0f5;padding: 10px;">
+            <header>
+                <h1>Configurações</h1>
+            </header>
+            <form style="width: 700px;margin: 0px;margin-bottom: 10px;">
+                <p style="margin-bottom: 5px;">Nome Completo<input class="form-control" type="text" id="name-input" style="margin-bottom: 10px;" placeholder="Nome Completo"></p>
+                <p style="margin-bottom: 5px;">Data de Nascimento<input class="form-control" id="date-input" type="date"></p>
+                <p style="margin-bottom: 5px;">Faculdade<input class="form-control" type="text" id="college-input" placeholder="Faculdade"></p>
+                <p style="margin-bottom: 5px;">Curso<input class="form-control" type="text" id="course-input" placeholder="Curso"></p>
+                <div style="margin-bottom: 10px;">
+                    <p style="margin-bottom: 3px;">Ano Corrente</p><input type="range" class="form-control-range" id="year-range" default=1 min=1 max=5 onchange="document.getElementById('year').innerHTML = this.value;">
+<output id="year">1</output>
+                </div>
+                <p style="margin-bottom: 5px;">Foto de Perfil<input class="form-control" type="file" id="profile-photo-input"></p>
+                <p style="margin-bottom: 5px;">Foto de Capa<input class="form-control" type="file" id="header-photo-input"></p>
+                <div>
+                    <p style="margin-bottom: 5px;">Privacidade</p><div id="privacy" class="btn-group" role="group" aria-label="Basic radio toggle button group">
+    <input type="radio" class="btn-check btn-secondary" name="privacy-radio" id="btnradio1" autocomplete="on" data-bs-toggle="tooltip" y-placement="middle" data-bs-placement="left" data-bs-title="Serás visível a todos os utilizadores registados no Noodle!">
+    <label class="btn btn-outline-primary" for="btnradio1">Público</label>
+  
+    <input type="radio" class="btn-check btn-secondary" name="privacy-radio" id="btnradio2" autocomplete="on" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Serás visível apenas para os teus colegas!">
+    <label class="btn btn-outline-primary" for="btnradio2">Privado</label>
+ 
+  </div>
+                </div>
+            </form>
+            <footer><button class="btn btn-primary" id="save-btn" type="button" style="background: #efc11a;float: left;">Guardar</button><button class="btn btn-primary" id="delete-btn" type="button" style="background: var(--bs-red);float: right;">Apagar Conta</button></footer>
+        </div>
+    </div>
+    <footer id="footer" class="footer-yellow">
+        <div class="container">
+            <p class="copyright" style="padding: 0px;padding-top: 0px;"><a id="faq-text" class="a" href="#" style="color: #f7f0f5;font-weight: bold;font-family: Open Sans;" data-bs-toggle="modal" data-bs-target="#modal-1">Perguntas Frequentes</a><small class="form-text" style="color: #f7f0f5;font-size: 20px;">&nbsp;|&nbsp;</small><a id="about-text" class="a" href="#" style="color: #f7f0f5;font-family: Open Sans;font-weight: bold;" data-bs-toggle="modal" data-bs-target="#modal-2">Sobre Nós</a></p>
+            <p class="copyright" style="padding-top: 0px;"><small class="form-text" style="color: #f7f0f5;font-style: italic;font-size: 12.5px;">&nbsp;Noodle (C) 2021</small></p>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/search.js"></script>
+    <script src="assets/js/tooltips.js"></script>
+</body>
+
+</html>
